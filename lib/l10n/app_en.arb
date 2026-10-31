@@ -1,0 +1,102 @@
+{
+  "@@locale": "en",
+  "appName": "Store",
+  "tagline": "Explore quality products",
+  "welcome": "Welcome",
+  "guestUser": "Guest",
+  "goodMorning": "Good morning,",
+  "goodAfternoon": "Good afternoon,",
+  "goodEvening": "Good evening,",
+  "loginTitle": "Welcome Back",
+  "loginSubtitle": "Sign in to explore our product catalog",
+  "signIn": "Sign In",
+  "enterCredentials": "Enter your credentials to continue",
+  "usernameLabel": "Username",
+  "usernameHint": "e.g. emilys",
+  "passwordLabel": "Password",
+  "passwordHint": "Enter your password",
+  "usernameRequired": "Username is required",
+  "usernameTooShort": "Username must be at least 3 characters",
+  "passwordRequired": "Password is required",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "useDemoCredentials": "Use demo credentials (emilys)",
+  "logout": "Log Out",
+  "logoutConfirmation": "Are you sure you want to sign out of your account?",
+  "cancel": "Cancel",
+  "sessionExpired": "Session expired. Please log in again.",
+  "loginUnexpectedError": "An unexpected error occurred during login.",
+  "products": "Products",
+  "endOfCatalog": "You've reached the end of the catalog",
+  "retry": "Retry",
+  "tryAgain": "Try Again",
+  "refresh": "Refresh",
+  "noProductsTitle": "No products available",
+  "noProductsMessage": "There are currently no products in the catalog.",
+  "loadProductsError": "Failed to load products.",
+  "failedToLoadMore": "Failed to load more products.",
+  "refreshFailed": "Refresh failed. Please check your connection.",
+  "outOfStock": "Out of stock",
+  "inStock": "In Stock",
+  "inStockWithCount": "In Stock ({count})",
+  "@inStockWithCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "productDetails": "Product Details",
+  "back": "Back",
+  "brandPrefix": "Brand: {brand}",
+  "@brandPrefix": {
+    "placeholders": {
+      "brand": {
+        "type": "String"
+      }
+    }
+  },
+  "discountPercentOff": "{percent}% OFF",
+  "@discountPercentOff": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "price": "Price",
+  "description": "Description",
+  "specifications": "Product Specifications",
+  "sku": "SKU",
+  "warranty": "Warranty",
+  "shipping": "Shipping",
+  "oopsSomethingWentWrong": "Oops, something went wrong",
+  "noItemsFound": "No items found",
+  "noItemsMessage": "There are no items to display at this moment.",
+  "backButton": "Back button",
+  "logoutIcon": "Logout icon",
+  "errorIcon": "Error icon",
+  "emptyStateIcon": "Empty state illustration",
+  "networkError": "Unable to connect to the server. Please check your network.",
+  "connectionTimeout": "Connection timed out. Please check your internet connection.",
+  "connectionError": "Unable to reach the server. Please check your network connection.",
+  "certificateError": "Security certificate validation failed.",
+  "requestCancelled": "Request was cancelled.",
+  "noInternet": "No internet connection available.",
+  "unexpectedNetworkError": "An unexpected network error occurred.",
+  "invalidCredentials": "Invalid username or password.",
+  "invalidRequest": "Invalid request parameters.",
+  "accessDenied": "Access denied. You do not have permission.",
+  "notFound": "Requested resource was not found.",
+  "serverError": "Internal server error. Please try again later.",
+  "unexpectedServerError": "Received unexpected status code from server.",
+  "dataParsingError": "Failed to parse response from server.",
+  "storageError": "Failed to access local secure storage.",
+  "unknownError": "An unexpected error occurred. Please try again.",
+  "emptyResponseBody": "Received empty response from server.",
+  "loginFailed": "Login failed. Please try again.",
+  "logoutFailed": "Failed to clear credentials during logout.",
+  "fetchProductsFailed": "Failed to fetch products.",
+  "fetchProductDetailsFailed": "Failed to fetch product details."
+}
